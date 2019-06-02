@@ -1,0 +1,13 @@
+class Square extends Polygon {
+  public Square(Point p, double r) {
+  super(p, r);
+    // Your code here
+  }
+  
+  public void explain() {
+    System.out.println("This is square.");
+		System.out.println("Center : [" + center.getX() + ", " + center.getY() + "]");
+		System.out.println("Radius : " + radius);
+    // Your code here
+  }
+}
